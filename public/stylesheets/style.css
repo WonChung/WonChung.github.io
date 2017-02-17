@@ -1,0 +1,389 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+
+
+html,body,#map_canvas{
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+body{
+	min-height:100%;
+	background-color:#631919;
+}
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+		font-family: 'Gentium Book Basic', serif;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/*.tabordion {*/
+  /*color: #333;
+  display: block;
+  font-family: arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+
+.tabordion input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.tabordion section {
+  display: block;
+}
+
+.tabordion section label {
+  background: #ccc;
+  border:1px solid #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px 20px;
+  position: relative;
+  width: 180px;
+  z-index:100;
+}
+
+.tabordion section article {
+  display: none;
+  left: 230px;
+  min-width: 300px;
+  padding: 0 0 0 21px;
+  position: absolute;
+  top: 0;
+}
+
+.tabordion section article:after {
+  background-color: #ccc;
+  bottom: 0;
+  content: "";
+  display: block;
+  left:-229px;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  z-index:1;
+}
+
+.tabordion input[name="sections"]:checked + label {
+  background: #eee;
+  color: #bbb;
+}
+
+.tabordion input[name="sections"]:checked ~ article {
+  display: block;
+}
+
+
+@media (max-width: 533px) {
+
+  h1 {
+    width: 100%;
+  }
+
+  .tabordion {
+    width: 100%;
+  }
+
+  .tabordion section label {
+    font-size: 1em;
+    width: 160px;
+  }
+
+ .tabordion section article {
+    left: 200px;
+    min-width: 270px;
+  }
+
+  .tabordion section article:after {
+    background-color: #ccc;
+    bottom: 0;
+    content: "";
+    display: block;
+    left:-199px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    width: 96%;
+  }
+
+  .tabordion {
+    width: 96%;
+  }
+}
+
+
+@media (min-width: 1366px) {
+  h1 {
+    width: 70%;
+  }
+
+  .tabordion {
+    width: 70%;
+  }
+}*/
+
+/* Banner Styling */
+#trademark{
+	font-family: 'Lora', serif;
+	color:white;
+	font-size:15px;
+}
+
+#trademark2{
+	font-family: 'Lora', serif;
+	color:white;
+	font-size:15px;
+}
+
+#head{
+	font-family: 'Abril Fatface', cursive;
+	color:silver;
+	font-size: 10rem;
+}
+.header-div{
+	overflow:auto;
+  background: url(http://www.publicdomainpictures.net/pictures/10000/velka/296-1214825968haFC.jpg) transparent;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 39rem;
+}
+
+/*.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background: url(http://www.publicdomainpictures.net/pictures/10000/velka/296-1214825968haFC.jpg) transparent;
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}*/
+
+.footer-div{
+	position: relative;
+	background-color: #631919;
+	height: 15%;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	padding: 20px;
+}
+h1{
+	font-family: 'Permanent Marker', cursive;
+	color:orange;
+	font-size:100px;
+}
+.cemvideo {
+    padding-right: 15px;
+}
+.cemvideo a {
+    font-family: 'Lora', serif;
+    color:white;
+		font-size: 15px;
+}
+.banner-img{
+	height:5rem;
+	/*clear:right;*/
+	/*overflow:auto;*/
+}
+
+
+
+h2{
+	color:black;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+}
+
+h4{
+	font-family: 'Lora', serif;
+	color:black;
+	font-size:1rem;
+}
+
+h5{
+	font-family: 'Cinzel', serif;
+	color:white;
+	font-size:2rem;
+	padding-left: 1%;
+}
+
+h6{
+	font-family: 'PT Serif', serif;
+	color:white;
+	font-size:1rem;
+	padding-left: 3%;
+}
+
+.container{
+	height: 100%;
+	max-width: 100%;
+	min-height: 650px;
+	font-family: 'Lato';
+	position:relative;
+}
+.clearfix,.col{
+	height: 100%;
+}
+
+/* Left panel */
+
+#filters{
+	background: url(http://www.swarthmore.edu/sites/all/themes/swarthmore_bootstrap/css/images/bg_content.jpg) repeat scroll 0% 0% transparent;
+}
+
+#filters2{
+	background-color: #000000;
+}
+
+#filters3{
+	background-color: #631919;
+}
+
+#filters4{
+	background-color: #FFE4B5;
+}
+
+#filters5{
+	background-color: #FFFFFF;
+}
+
+
+#tags{
+	font-size:1.3rem;
+	width:97%;
+	margin:1%;
+	padding-left:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.thumb{
+	width:350px;
+}
+
+#search_div{
+	position: absolute;
+
+  width:25%;
+}
+#search_form{
+	width:90%;
+}
+#search_box{
+	padding:0;
+	width:70%;
+}
+
+fieldset {
+	border:0;
+	padding:0;
+	margin:0;
+}
+.btn-primary{
+	background-color:#832121;
+}
+.btn-small {
+  padding: .125rem .5rem;
+}
+
+input[type=checkbox] {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    padding: 5px;
+}
+
+
+label {
+	color:rgb(200,200,200);
+}
+
+.check_block{
+	padding:3px;
+}
+.check_block:hover label{
+	color:black;
+}
+
+input[type="checkbox"]:checked + label {
+    color: black;
+}
+input[type="checkbox"]:checked:hover + label {
+    color:rgb(200,200,200);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}

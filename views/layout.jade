@@ -1,0 +1,147 @@
+doctype html
+html
+    head
+        title Pennsylvania for Safe Climate
+        link(rel='stylesheet', href='/stylesheets/modal-min-bootstrap.css')
+        link(rel='stylesheet', href='//d2v52k3cl9vedd.cloudfront.net/basscss/7.0.0/basscss.min.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        div.header-div(role='banner')
+            h1.main-title.center Pennsylvania for Safe Climate
+            br
+            h2.center Friday, April 7th, 2017
+            h2.center Widener University Commonwealth Law School, Harrisburg, PA
+            
+
+
+        div.container
+            div.clearfix
+                #filters3.col.col-12
+                    #head.center Agenda
+                    ul.tab
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'Welcome')") Welcome
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'KeynoteSpeaker')") Keynote Speaker
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'IntroductionI')") Introduction I
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'IntroductionII')") Introduction II
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'WorkshopRound1')") Workshop Round #1
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'Break')") Break
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'Screen')") "Priceless"
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'LobbyTraining')") Keynote Speaker
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'BreakUp')") Break Up
+                      li
+                        a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'Closing')") Closing Remarks
+                    //- .tabordion
+                    //-   section#section1
+                    //-     input#option1(type='radio', name='sections', checked='')
+                    //-     label(for='option1') John Lennon
+                    //-     article
+                    //-       h2 John Lennon
+                    //-       p
+                    //-         | John Ono Lennon, (born John Winston Lennon; 9 October 1940 – 8 December 1980), was an English musician, singer and songwriter who rose to worldwide fame as a founder member of the rock band the Beatles, the most commercially successful band in the history of popular music. With Paul McCartney, he formed a songwriting partnership that is one of the most celebrated of the 20th century.
+                    //-       p
+                    //-         | Born and raised in Liverpool, as a teenager Lennon became involved in the skiffle craze; his first band, the Quarrymen, evolved into the Beatles in 1960. When the group disbanded in 1970, Lennon embarked on a solo career that produced the critically acclaimed albums John Lennon/Plastic Ono Band and Imagine, and iconic songs such as "Give Peace a Chance" and "Working Class Hero". After his marriage to Yoko Ono in 1969, he changed his name to John Ono Lennon. Lennon disengaged himself from the music business in 1975 to raise his infant son Sean, but re-emerged with Ono in 1980 with the new album Double Fantasy. He was murdered three weeks after its release.
+                    //-   section#section2
+                    //-     input#option2(type='radio', name='sections')
+                    //-     label(for='option2') Paul McCartney
+                    //-     article
+                    //-       h2 Paul McCartney
+                    //-       p
+                    //-         | Sir James Paul McCartney, (born 18 June 1942), is an English musician, singer, songwriter, multi-instrumentalist, and composer. With John Lennon, George Harrison and Ringo Starr, he gained worldwide fame as a member of the Beatles, widely regarded as one of the most popular and influential acts in the history of rock music; his songwriting partnership with Lennon is one of the most celebrated of the 20th century. After the band's break-up, he pursued a solo career and later formed Wings with his first wife, Linda, and Denny Laine.
+                    //-       p
+                    //-         | McCartney has been recognised as one of the most successful composers and performers of all time, with 60 gold discs and sales of over 100 million albums and 100 million singles of his work with the Beatles and as a solo artist.[2] More than 2,200 artists have covered his Beatles song "Yesterday", more than any other copyrighted song in history. Wings' 1977 release "Mull of Kintyre" is one of the all-time best-selling singles in the UK. Inducted into the Rock and Roll Hall of Fame as a solo artist in March 1999, McCartney has written, or co-written 32 songs that have reached number one on the Billboard Hot 100, and as of 2014 he has sold more than 15.5 million RIAA-certified units in the United States. McCartney, Lennon, Harrison and Starr received MBEs in 1965, and in 1997, McCartney was knighted for his services to music.
+                    //-       p
+                    //-         | McCartney has released an extensive catalogue of songs as a solo artist and has composed classical and electronic music. He has taken part in projects to promote international charities related to such subjects as animal rights, seal hunting, land mines, vegetarianism, poverty, and music education. He has married three times and is the father of five children.
+                    //-   section#section3
+                    //-     input#option3(type='radio', name='sections')
+                    //-     label(for='option3') George Harrison
+                    //-     article
+                    //-       h2 George Harrison
+                    //-       p
+                    //-         | George Harrison, (25 February 1943 – 29 November 2001), was an English musician, multi-instrumentalist, singer and songwriter who achieved international fame as the lead guitarist of the Beatles. Although John Lennon and Paul McCartney were the band's primary songwriters, most of their albums included at least one Harrison composition, including "While My Guitar Gently Weeps", "Here Comes the Sun" and "Something", which became the Beatles' second-most-covered song.
+                    //-   section#section4
+                    //-     input#option4(type='radio', name='sections')
+                    //-     label(for='option4') Ringo Starr
+                    //-     article
+                    //-       h2 Ringo Starr
+
+                    #Welcome.tabcontent
+                      h6 10 Minutes
+                    #KeynoteSpeaker.tabcontent
+                      h6 (some ideas: Swarthmore President or Dickinson College President, Head of Sustainability Dpt. (at one of the universities), or potentially someone from Years of Living Dangerously)
+                    #IntroductionI.tabcontent
+                      h6 The Link Between Pollution & Climate Change (may be critical background information depending on if audience is more conservative, etc.)
+                      h6 10-25 minutes
+                    #IntroductionII.tabcontent
+                      h6 III. Introduction: The Climate Solution, Put A Price On It // Page or Lizzy can present
+                      h6 - Screen 3 minute video of Robert Reich explaining the importance of a carbon price as it pertains to being a solution to global warming
+                      h6 - Use Put A Price On it slides (just an option as we already have these made and can lead the presentation ourselves or train someone on the team to present it)
+                      h6 - Highlight how it is just not fair for polluters to not pay their fair share. (Should appeal to conservatives)
+                      h6 15-25 minutes
+                    #WorkshopRound1.tabcontent
+                      h6 This can be where we plug in some other organizations in the state and give them an opportunity to share and present
+                      h6 Workshop A: Other climate fights in PA and how carbon pricing fits in / can unite them --> this will focus on broader climate fights in PA and how putting a price on GHG emissions will help lessen the amount of fracking, etc. The workshop can also touch on coaching participants on how to deal with climate-change deniers, etc.
+                      h6 Workshop B: More in depth look at a carbon tax --> this workshop will go into detail (taking off where III. Introduction left off) about key places a carbon tax has worked and boosted the economy! This is also where we can speak about some of the myths and mis-information out there about a carbon tax and coach participants on how to deal with myth-believers (aka be a myth buster!)
+                      h6 Each workshop can be 20-30 minutes
+                    #Break.tabcontent
+                      h6 let people eat / snack during screening
+                      h6 15 minutes
+                    #Screen.tabcontent
+                      h6 Screen "Priceless" episode from Years of Living Dangerously
+                      h6 Featuring The Sixth Extinction with Aasif Mandvi and Price On Carbon with Nikki Reed
+                      h6 1 hour
+                    #LobbyTraining.tabcontent
+                      h6 Meeting with government representatives is one of the most powerful ways you can let your voice be heard. In this training, we will walk you through lobbying techniques so that you're meeting will be a success! Remember, as a citizen you have the right to be heard, take advantage of this opportunity to meet with your legislators for optimal impact.
+                      h6 30-45 minutes
+                    #BreakUp.tabcontent
+                      h6 Participants will meet with others in their district to complete a checklist that will help them ensure they have all the pieces together for a successful lobbying (Our Climate can provide this). Participants will choose roles and practice.
+                      h6 20 - 30 minutes
+                    #Closing.tabcontent
+                      h6 Important to ensure that everyone has access to some sort of online petition so that individuals who are unable to attend event can sign onto something concrete that can be given to legislators during lobbying meetings, etc.
+                      h6 15 minutes
+
+        div.container
+            div.clearfix
+                #filters2.col.col-12
+                    #head.center Carbon Pricing
+        div.container
+            div.clearfix
+                #filters4.col.col-12
+                    #head.center Endorsement Letter
+        div.container
+            div.clearfix
+                #filters.col.col-12
+                    #head.center Resources
+
+        div.container
+            div.clearfix
+                #filters5.col.col-12
+                    #head.center Sponsors
+                        br
+                        
+                        img.banner-img.middle(src='/images/sponsor1.gif')
+                        br
+                        img.banner-img.middle(src='/images/sponsor2.png')
+                        br
+
+        div.footer-div(role'footer')
+            img.banner-img.left(src='/images/CollegeLogoGarnet.svg')
+            #trademark2.left Contact Us: sustainability@swarthmore.edu
+
+            div.cemvideo.right
+                a(href='http://www.swarthmore.edu/sustainability') Powered by: Swarthmore College Office of Sustainability
+
+            //-#trademark.right.h2 <a href="http://www.swarthmore.edu/langcenter">Powered by: The Lang Center</a>
+        block content
+        script(src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
+        script(src='/javascripts/main.js')
+        script(src='https://maps.googleapis.com/maps/api/js?&sensor=false')
